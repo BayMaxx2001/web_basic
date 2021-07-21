@@ -28,11 +28,11 @@ Là phần cứng hoặc phần mềm đóng vai trò gửi request cho server v
 		- HTML
 
 ## Website
-Mô hình client-server
+### Mô hình client-server
 + Khi vào một trang web bất kỳ thông qua một tên miền. Browser đi tới DNS(Domain name system) tìm ra địa chỉ IP thực tế của tên miền đó. Sau đó IP được gửi về Browser. Trình duyệt sử dụng địa chỉ IP đó gửi request đến cái webserver của IP tìm được qua giao thức TCP/IP. 
 + Sau đó server trả về status code nếu status code là 200 thì server trả về dữ liệu HTML của trang web đó Browser sẽ tệp HTML hiển thị ra trang web đó cho người dùng
 
-**status code cơ bản** 
+**Status code cơ bản** 
 - 404 Not Found.
 - 500 Internal Server Error.
 - 502 Bad Gateway.
