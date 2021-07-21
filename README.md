@@ -49,8 +49,8 @@ Là phần cứng hoặc phần mềm đóng vai trò gửi request cho server v
 + Frontend thì sẽ thường sẽ nhận dữ liệu từ phía backend và render ra giao diện cho người dùng có thể nhìn thấy và tương tác.Và frontend tương tác với Backend qua các request. Và Backend sẽ nhận những request từ phía frondend để xử lý và gửi đi những dữ liệu cho frontend thông qua API.Backend và Frontend có mối quan hệ chặt chẽ với nhau. 
 ## Liên quan
 1. API - RESTfull API- WEB API , JSON
-- API là  Web API  là một phương thức dùng để cho phép các ứng dụng khác nhau có thể giao tiếp, trao đổi dữ liệu qua lại. Dữ liệu được Web API trả lại thường ở dạng  JSON hoặc XML thông qua giao thức HTTP hoặc HTTPS.
-RESTfulAPI là chuẩn dùng trong việc thiết kế API cho các webservices . để các ứng dụng web có thể giao tiếp với nhau. 
+	- API là  Web API  là một phương thức dùng để cho phép các ứng dụng khác nhau có thể giao tiếp, trao đổi dữ liệu qua lại. Dữ liệu được Web API trả lại thường ở dạng  JSON hoặc XML thông qua giao thức HTTP hoặc HTTPS.
+	- RESTfulAPI là chuẩn dùng trong việc thiết kế API cho các webservices . để các ứng dụng web có thể giao tiếp với nhau. 
 2. Kiến trúc microservice & Monolithic
 	- Monolithic
 	Chỉ phát triển, triển khai và quản lý của một khối duy nhất. Bao gồm cơ sở dữ liệu , giao diện phía client , ứng dụng phía server . tất cả các phần mềm được gộp là và các chức năng đc quản lý tại 1 nơi . 
