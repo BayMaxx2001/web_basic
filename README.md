@@ -49,7 +49,7 @@ Mô hình client-server
 + Frontend thì sẽ thường sẽ nhận dữ liệu từ phía backend và render ra giao diện cho người dùng có thể nhìn thấy và tương tác.Và frontend tương tác với Backend qua các request. Và Backend sẽ nhận những request từ phía frondend để xử lý và gửi đi những dữ liệu cho frontend thông qua API.Backend và Frontend có mối quan hệ chặt chẽ với nhau. 
 ## Liên quan
 1. API - RESTfull API- WEB API , JSON
-API là  Web API  là một phương thức dùng để cho phép các ứng dụng khác nhau có thể giao tiếp, trao đổi dữ liệu qua lại. Dữ liệu được Web API trả lại thường ở dạng  JSON hoặc XML thông qua giao thức HTTP hoặc HTTPS.
+- API là  Web API  là một phương thức dùng để cho phép các ứng dụng khác nhau có thể giao tiếp, trao đổi dữ liệu qua lại. Dữ liệu được Web API trả lại thường ở dạng  JSON hoặc XML thông qua giao thức HTTP hoặc HTTPS.
 RESTfulAPI là chuẩn dùng trong việc thiết kế API cho các webservices . để các ứng dụng web có thể giao tiếp với nhau. 
 2. Kiến trúc microservice & Monolithic
 	- Monolithic
@@ -57,7 +57,7 @@ RESTfulAPI là chuẩn dùng trong việc thiết kế API cho các webservices 
 	- Microservice
 	Là chia thành từng phần riêng biệt rồi tổng hợp của nhiều services nhỏ và độc lập có thể chạy riêng biệt, phát triển và triển khai độc lập, từng nghiệp vụ khác nhau . Và mỗi 1 services sẽ giao tiếp với nhau qua API . vì vậy có thể làm độc lập và có thể dùng công nghệ riêng biệt không liên quan đến nhau. 
 	- Khi một service trong mạng lưới Microservice gặp vấn đề thì hệ thống có thể vẫn hoạt động tiếp. Còn đối với Monolithic, khi một thành phần của hệ thống gặp vấn đề thì hệ thống sẽ dừng hoạt động.  
-4. Mô hình MVC
-Là mô hình model view controller
-Trong đó mỗi đối tượng (model,view,controller) sẽ chịu trách nhiệm và quản lý từng nhiệm vụ riêng biệt. View là để tương tác với người dùng, Xử lý các dữ liệu của người dùng nhập vào hay yêu cầu là controller. Model có chức năng là tương tác với cơ sở dữ liệu. 
+3. Mô hình MVC
+	- Là mô hình model view controller
+	Trong đó mỗi đối tượng (model,view,controller) sẽ chịu trách nhiệm và quản lý từng nhiệm vụ riêng biệt. View là để tương tác với người dùng, Xử lý các dữ liệu của người dùng nhập vào hay yêu cầu là controller. Model có chức năng là tương tác với cơ sở dữ liệu. 
  
