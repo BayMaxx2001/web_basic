@@ -33,11 +33,10 @@ Mô hình client-server
 + Sau đó server trả về status code nếu status code là 200 thì server trả về dữ liệu HTML của trang web đó Browser sẽ tệp HTML hiển thị ra trang web đó cho người dùng
 
 **status code cơ bản** 
-404 Not Found.
-500 Internal Server Error.
-502 Bad Gateway.
-503 Service Unavailable.
-504 Gateway Timeout.
+- 404 Not Found.
+- 500 Internal Server Error.
+- 502 Bad Gateway.
+- 200 Succesful
 
 ### Website tĩnh
 + Là website có source code được xây dựng sẵn bao gồm (html, css, js). Các website này không có sự tương tác với cơ sở dữ liệu phía server. 
