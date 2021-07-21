@@ -16,21 +16,22 @@ Client-Server, Web Development, Request / Response
 Mô hình của ứng dụng web ( web application) là mô hình client-server
 1. Client
 Là phần cứng hoặc phần mềm đóng vai trò gửi request cho server và nhận response từ server trả về. Mỗi lần gửi yêu cầu qua một giao thức kết nối (HTTP/HTTPS) 
-- Một request bao gồm: 
-	- URL
-	- method(GET, POST, PUT, DELETE) 
-	- Request header
-	- Form Data(Request cơ bản: POST)
-	- Query String parameters(Request cơ bản: GET)
+	- Một request bao gồm: 
+		- URL
+		- method(GET, POST, PUT, DELETE) 
+		- Request header
+		- Form Data(Request cơ bản: POST)
+		- Query String parameters(Request cơ bản: GET)
 
 2. Server là máy chủ , lưu trữ dữ liệu, cài đặt các webservice thực hiện các yêu cầu từ phía client và trả về response thông qua giao thức http request. 
-- Một respone : 
-	- HTML
+	- Một respone : 
+		- HTML
 
-## Website vận hành
+## Website
 Mô hình client-server
 + Khi vào một trang web bất kỳ thông qua một tên miền. Browser đi tới DNS(Domain name system) tìm ra địa chỉ IP thực tế của tên miền đó. Sau đó IP được gửi về Browser. Trình duyệt sử dụng địa chỉ IP đó gửi request đến cái webserver của IP tìm được qua giao thức TCP/IP. 
 + Sau đó server trả về status code nếu status code là 200 thì server trả về dữ liệu HTML của trang web đó Browser sẽ tệp HTML hiển thị ra trang web đó cho người dùng
+
 **status code cơ bản** 
 404 Not Found.
 500 Internal Server Error.
