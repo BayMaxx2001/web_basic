@@ -15,15 +15,15 @@ Mô hình của ứng dụng web ( web application) là mô hình client-server
 1. Client
 Là phần cứng hoặc phần mềm đóng vai trò gửi request cho server và nhận response từ server trả về. Mỗi lần gửi yêu cầu qua một giao thức kết nối (HTTP/HTTPS) 
 - Một request bao gồm: 
-+ URL
-+ method(GET, POST, PUT, DELETE) 
-+ Request header
-+ Form Data(Request cơ bản: POST)
-+ Query String parameters(Request cơ bản: GET)
+	- URL
+	- method(GET, POST, PUT, DELETE) 
+	- Request header
+	- Form Data(Request cơ bản: POST)
+	- Query String parameters(Request cơ bản: GET)
 
 2. Server là máy chủ , lưu trữ dữ liệu, cài đặt các webservice thực hiện các yêu cầu từ phía client và trả về response thông qua giao thức http request. 
-1 respone : 
-+ HTML
+- Một respone : 
+	- HTML
 
 ## Website vận hành
 Mô hình client-server
@@ -50,11 +50,11 @@ Mô hình client-server
 API là  Web API  là một phương thức dùng để cho phép các ứng dụng khác nhau có thể giao tiếp, trao đổi dữ liệu qua lại. Dữ liệu được Web API trả lại thường ở dạng  JSON hoặc XML thông qua giao thức HTTP hoặc HTTPS.
 RESTfulAPI là chuẩn dùng trong việc thiết kế API cho các webservices . để các ứng dụng web có thể giao tiếp với nhau. 
 2. Kiến trúc microservice & Monolithic
-- Monolithic
-Chỉ phát triển, triển khai và quản lý của một khối duy nhất. Bao gồm cơ sở dữ liệu , giao diện phía client , ứng dụng phía server . tất cả các phần mềm được gộp là và các chức năng đc quản lý tại 1 nơi . 
-- Microservice
-Là chia thành từng phần riêng biệt rồi tổng hợp của nhiều services nhỏ và độc lập có thể chạy riêng biệt, phát triển và triển khai độc lập, từng nghiệp vụ khác nhau . Và mỗi 1 services sẽ giao tiếp với nhau qua API . vì vậy có thể làm độc lập và có thể dùng công nghệ riêng biệt không liên quan đến nhau. 
-+ Khi một service trong mạng lưới Microservice gặp vấn đề thì hệ thống có thể vẫn hoạt động tiếp. Còn đối với Monolithic, khi một thành phần của hệ thống gặp vấn đề thì hệ thống sẽ dừng hoạt động.  
+	- Monolithic
+	Chỉ phát triển, triển khai và quản lý của một khối duy nhất. Bao gồm cơ sở dữ liệu , giao diện phía client , ứng dụng phía server . tất cả các phần mềm được gộp là và các chức năng đc quản lý tại 1 nơi . 
+	- Microservice
+	Là chia thành từng phần riêng biệt rồi tổng hợp của nhiều services nhỏ và độc lập có thể chạy riêng biệt, phát triển và triển khai độc lập, từng nghiệp vụ khác nhau . Và mỗi 1 services sẽ giao tiếp với nhau qua API . vì vậy có thể làm độc lập và có thể dùng công nghệ riêng biệt không liên quan đến nhau. 
+	- Khi một service trong mạng lưới Microservice gặp vấn đề thì hệ thống có thể vẫn hoạt động tiếp. Còn đối với Monolithic, khi một thành phần của hệ thống gặp vấn đề thì hệ thống sẽ dừng hoạt động.  
 4. Mô hình MVC
 Là mô hình model view controller
 Trong đó mỗi đối tượng (model,view,controller) sẽ chịu trách nhiệm và quản lý từng nhiệm vụ riêng biệt. View là để tương tác với người dùng, Xử lý các dữ liệu của người dùng nhập vào hay yêu cầu là controller. Model có chức năng là tương tác với cơ sở dữ liệu. 
