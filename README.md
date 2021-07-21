@@ -5,12 +5,12 @@ Tìm hiểu về Golang & HTTP Request/Response
 
 Client-Server, Web Development, Request / Response
 ## Golang 
-1. syntax basic 
-2. variables
-3. function
-4. for if else 
-5. struct, slices , map
-6. pointer 
+1. Syntax basic 
+2. Variables
+3. Function
+4. For if else 
+5. Struct, slices , map
+6. Pointer 
 
 ## HTTP Request/Response 
 Mô hình của ứng dụng web ( web application) là mô hình client-server
@@ -24,7 +24,7 @@ Là phần cứng hoặc phần mềm đóng vai trò gửi request cho server v
 		- Query String parameters(Request cơ bản: GET)
 
 2. Server là máy chủ , lưu trữ dữ liệu, cài đặt các webservice thực hiện các yêu cầu từ phía client và trả về response thông qua giao thức http request. 
-	- Một respone : 
+	- Một respone: 
 		- HTML
 
 ## Website
